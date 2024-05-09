@@ -14,7 +14,7 @@ func NewUserHandler() *UserHandler {
 }
 
 func (h *UserHandler) GetAllUsers(c echo.Context) error {
-	return c.String(http.StatusOK, "Hello from GetAllUsers!")
+	return c.String(http.StatusOK, "Hello from GetAllUsers")
 }
 
 func (h *UserHandler) GetUserByID(c echo.Context) error {
